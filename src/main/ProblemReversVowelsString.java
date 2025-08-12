@@ -1,4 +1,4 @@
-import java.util.HashMap;
+package main;
 
 public class ProblemReversVowelsString {
     public boolean isVowels(char s) {

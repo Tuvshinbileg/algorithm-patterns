@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package main;
 
 public class PreprocessingArray {
     public static int run(int[] nums, int k, int j) {

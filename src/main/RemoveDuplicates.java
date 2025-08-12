@@ -1,3 +1,5 @@
+package main;
+
 public class RemoveDuplicates {
     public int removeDuplicates(int[] nums) {
         int[] countsDuplicates = new int[nums.length];
