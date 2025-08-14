@@ -12,6 +12,7 @@ public class TwoPointerTest {
     @Test
     void test_1() {
         int[] case_num = {-1, 0, 1, 2, -1, -4};
+
         var result = TwoPointer.threeSum(case_num);
 
         Assertions.assertEquals(2, result.size());
@@ -32,5 +33,14 @@ public class TwoPointerTest {
         int[] case_num = {0, 1, 1};
         var result = TwoPointer.threeSum(case_num);
         result.forEach(el -> System.out.println(Arrays.toString(el.toArray())));
+    }
+
+    @Test
+    void test_4() {
+        int[] case_num = {0, 0, 0, 0};
+        System.out.println(case_num.length);
+        var result = TwoPointer.threeSum(case_num);
+        result.forEach(el -> System.out.println(Arrays.toString(el.toArray())));
+        Assertions.assertEquals(1, result.size());
     }
 }
