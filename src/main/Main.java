@@ -1,5 +1,7 @@
 package main;
 
+import main.problems.TwoPointer;
+
 import java.util.Arrays;
 
 public class Main {
@@ -8,10 +10,10 @@ public class Main {
         int[] idxs = {0, 1, 2, 3, 4, 5};
         int[] case1 = {2, 7, 11, 15};
         // 1, 3
-//        System.out.println(main.PreprocessingArray.run(nums, 4, 5));
+//        System.out.println(main.problems.PreprocessingArray.run(nums, 4, 5));
 
         int[] nums1 = {-1, 0};
-//        var result = main.TwoPointer.run(case1, 9);
+//        var result = main.problems.TwoPointer.run(case1, 9);
 
         int[] case_1 = {-1, 0, 1, 2, -1, -4};
         int[] case_3 = {0, 0, 0};

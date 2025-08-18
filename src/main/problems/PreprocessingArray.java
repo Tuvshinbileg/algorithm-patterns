@@ -1,4 +1,4 @@
-package main;
+package main.problems;
 
 public class PreprocessingArray {
     public static int run(int[] nums, int k, int j) {

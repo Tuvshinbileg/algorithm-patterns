@@ -1,4 +1,4 @@
-package main;
+package main.problems;
 
 public class ProblemReversVowelsString {
     public boolean isVowels(char s) {

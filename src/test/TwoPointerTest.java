@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 
-import main.TwoPointer;
+import main.problems.TwoPointer;
 
 public class TwoPointerTest {
 

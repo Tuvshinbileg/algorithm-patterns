@@ -1,4 +1,4 @@
-package main;
+package main.problems;
 
 public class RemoveDuplicates {
     public int removeDuplicates(int[] nums) {
